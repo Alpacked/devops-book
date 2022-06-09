@@ -1,0 +1,65 @@
+site_name: DevOps CookBook
+repo_url: https://github.com/OuFinx/devops-book
+edit_uri: ./edit/main
+site_description: A Collection of Useful Tools for DevOps and more
+
+theme:
+  name: material
+  # favicon: web/img/favicon.ico
+  features:
+    - navigation.indexes
+
+extra_css:
+  - static/style.css
+
+# The structure of the website.
+# You must to update this config each time you are adding a new page.
+nav:
+  - 👋 Getting Started: getting-started.md
+  - 🎹 CLI:
+    - 😎 ZSH:
+      - zsh: cli/zsh.md
+      - oh-my-zsh: cli/oh-my-zsh.md
+      - powerlevel10k: cli/powerlevel10k.md
+      - plugins: cli/oh-my-zsh-plugins.md
+    - 🚪 AWS SSO:
+      - aws-sso: cli/aws-sso.md
+      - sso-restore: cli/sso-restore.md
+    - ♻️ Other:
+      - regctl: cli/regctl.md
+      - tldr: cli/tldr.md
+      - homebrew: cli/homebrew.md
+      - fig: cli/fig.md
+      - tmux: cli/tmux.md
+      - fzf: cli/fzf.md
+      - pbcopy: cli/pbcopy.md
+  - 📜 Terraform:
+      - tfswitch: terraform/tfswitch.md
+      - terraform-docs: terraform/terraform-docs.md
+  - 👑 Kubernetes:
+      - kubectl: kubernetes/kubectl.md
+      - kubens: kubernetes/kubens.md
+      - kubectx: kubernetes/kubectx.md
+      - helm-diff: kubernetes/helm-diff.md
+      - kube-capasity: kubernetes/kube-capasity.md
+  - 📚 Applications:
+      - vscode: applications/vscode.md
+      - lens: applications/lens.md
+      - sublime: applications/sublime.md
+      - notion: applications/notion.md
+      - colima: applications/colima.md
+      - flameshot: applications/flameshot.md
+      - 🤑 For Mac:
+        - cleanshot: applications/cleanshot.md
+
+markdown_extensions:
+  # Task lists support
+  # https://squidfunk.github.io/mkdocs-material/reference/lists/
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  # https://www.mkdocs.org/user-guide/configuration/#search
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#built-in-search-plugin
+  - search
