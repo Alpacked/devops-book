@@ -5,7 +5,7 @@ site_description: A Collection of Useful Tools for DevOps and more
 
 theme:
   name: material
-  # favicon: web/img/favicon.ico
+  favicon: static/favicon.png
   features:
     - navigation.indexes
 
