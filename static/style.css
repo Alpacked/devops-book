@@ -1,0 +1,11 @@
+a.md-nav__link:hover {
+    margin-left: 1px;
+}
+
+.md-nav__link:hover {
+background-color: rgba(0, 0, 0, 0.05);
+}
+
+.md-nav--primary > :not(:first-child) .md-nav__list {
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
