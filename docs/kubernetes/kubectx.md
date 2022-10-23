@@ -6,6 +6,12 @@
 
 ## How to install
 
+*Mac*
+
+```shell
+brew install kubectx
+```
+
 *Linux*
 
 ```shell
