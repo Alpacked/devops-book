@@ -6,6 +6,20 @@
 
 ## How to install
 
+*Mac*
+
+```shell
+brew install kubectx
+```
+
+In addition, `fzf` provides an **interactive way** to switch between the options, no need to write or remember contexts or namespaces.
+
+```shell
+brew install fzf
+```
+
+![image](../static/kubectx-fzf.gif)
+
 *Linux*
 
 ```shell
