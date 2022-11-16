@@ -1049,6 +1049,13 @@
 <p><img alt="image" src="../../static/kubens.gif" /></p>
 <p><a href="https://github.com/ahmetb/kubectx">Kubens</a> is a tool to switch between Kubernetes namespaces (and configure them for kubectl) easily.</p>
 <h2 id="how-to-install">How to install</h2>
+<p><em>Mac</em></p>
+<pre><code class="language-shell">brew install kubectx
+</code></pre>
+<p>In addition, <code>fzf</code> provides an <strong>interactive way</strong> to switch between the options, no need to write or remember contexts or namespaces.</p>
+<pre><code class="language-shell">brew install fzf
+</code></pre>
+<p><img alt="image" src="../../static/kubens-fzf.gif" /></p>
 <p><em>Linux</em></p>
 <pre><code class="language-shell">sudo git clone https://github.com/ahmetb/kubectx /opt/kubectx
 sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
